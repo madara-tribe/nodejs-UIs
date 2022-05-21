@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>object length calculation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+<div>
+
+
+  <div　align='right' class="right">
+    <canvas class="canvas" id="canvasR" width="350" height="350" style="border: 2px solid;"></canvas>
+    <div class="Rbtn">
+      <a class="btn1" id="test1">
+        <font color="#FFFFFF"><label for="image"><b>Submit right image</b></label></font>
+      </a>
+    </div>
+      　<input type="file" id="file1" accept="image/*" hidden>
+   </div>
+
+
+
+  <div align='left' class="left">
+    <canvas class="canvas" id="canvasL" width="350" height="350" style="border: 2px solid;"></canvas>
+    <div class="Lbtn">
+      <a class="btn1" id="test2">
+        <font color="#FFFFFF"><label for="image"><b>Submit left image</b></label></font>
+      </a>
+    </div>
+    　　<input type="file" id="file2" accept="image/*" hidden>
+  </div>
+
+
+
+  <div align='center' class="centers">
+    <a class="btn2" id="predict-button">
+      <font color="#FFFFFF"><b>Analysis</b></font>
+    </a>
+    <table class="table">
+      <thead>
+        <tr><th>Analysis result</th></tr>
+      </thead>
+    　<tbody>
+    　　<tr><th><div id="div_string"></div></th></tr>
+    　</tbody>
+    </table>
+  </div>
+
+
+
+  <div align='reset_bottom' class='reset_btn'>
+    <a class="btn2" onclick="reset()">
+      <font color="#FFFFFF"><label for="image"><b>Reset</b></label></font>
+    </a>
+  </div>
+
+
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js'></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

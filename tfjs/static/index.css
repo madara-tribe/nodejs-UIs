@@ -1,0 +1,64 @@
+.box{
+  position:relative;
+}
+
+
+a.btn1{
+font-size:1.3em;
+display:block;
+width:350px;
+height:50px;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+border:2px solid;
+border-color:#aaaaaa #444444 #444444 #aaaaaa;
+background:#3399FF;
+}
+
+a.btn2{
+font-size:1.3em;
+display:block;
+width:100px;
+padding-top:10px;
+padding-bottom:10px;
+text-align:center;
+border:2px solid;
+border-color:#aaaaaa #444444 #444444 #aaaaaa;
+background:#3399FF;
+}
+
+
+div.Lbtn{
+  position: fixed;
+  left:50px;
+}
+
+div.Rbtn{
+  position: fixed;
+  left:700px;
+}
+
+div.reset_btn{
+  position: fixed;
+  top:50px;
+  left:50px;
+}
+
+.right{
+  position: fixed;
+  left:700px;
+  top:150px;
+}
+
+.left{
+  position: fixed;
+  left:50px;
+  top:150px;
+}
+
+.centers{
+  position: fixed;
+  top:550px;
+  left:480px;
+}
