@@ -1,19 +1,4 @@
-# tensorflowjs
-tensorflowjs and related libarary version at May 2019 are as follows:
-```
-tensorflow==1.13
-keras==2.2.4
-tensorflowjs==1.1.2
-```
-
-I trained CNN for image classification at google colaboratory and converted saved weight(h5 file) by tensorflowjs_converter to load by javascript
-```
-$ tensorflowjs_converter --input_format keras --output_format tfjs_layers_model ep02model.h5 web_model/
-```
-I build server to access with node.js.
-you can predict upload image accuracy and its accuracy is indicated on screen
-
-
+# nodejs UI samples
 
 
 # hot to build server
@@ -26,7 +11,7 @@ Bild server by below command
 $ npm start
 ```
 
-After build server、access to ```http://localhost:8080```
+After build server、access to ```http://localhost:xxxx```
 
 
 ## Result
