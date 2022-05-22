@@ -2,7 +2,7 @@
 
 
 # hot to build server
-In same path of nodejs foloder、install node.js pakeges
+In same foloder、install node.js pakeges
 ```
 $ npm install
 ```
